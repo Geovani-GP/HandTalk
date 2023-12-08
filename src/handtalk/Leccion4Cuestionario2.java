@@ -51,8 +51,8 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel3.setText("Leccion 4 - Cuestionario");
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel3.setText("Lección 4 - Cuestionario");
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 36, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
@@ -62,15 +62,15 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(694, 6, -1, -1));
         jPanel3.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(477, 72, 205, 10));
 
-        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel5.setText("Tiempo");
         jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 36, 92, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel6.setText("¿Qué seña representa el día miércoles?");
         jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 120, 300, -1));
 
-        jButton2.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton2.setText("a)");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +79,7 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         });
         jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 350, 130, -1));
 
-        jButton4.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton4.setText("b) ");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,7 +88,7 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         });
         jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 350, 130, -1));
 
-        jButton5.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton5.setText("c) ");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +99,7 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,7 +108,7 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, 120, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +122,7 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
 
         jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 440, 820, 70));
 
-        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, 160, 30));
 
         jLabel8.setText("jLabel8");
@@ -131,8 +131,8 @@ public class Leccion4Cuestionario2 extends javax.swing.JFrame {
         jLabel9.setText("jLabel9");
         jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 200, 130, 110));
 
-        jLabel10.setText("jLabel10");
-        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 190, 140, 120));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Captura de pantalla 2023-12-06 180741.png"))); // NOI18N
+        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 140, 200, 200));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
