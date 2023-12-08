@@ -90,7 +90,7 @@
                   </Group>
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                   <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="283" max="32767" attributes="0"/>
+                  <EmptySpace pref="289" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -99,9 +99,9 @@
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe Script" size="18" style="1"/>
+              <Font name="Rockwell" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Leccion 3"/>
+            <Property name="text" type="java.lang.String" value="Lecci&#xf3;n 3"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel9">
@@ -123,7 +123,7 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe Script" size="18" style="1"/>
+              <Font name="Rockwell" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="N&#xfa;meros"/>
           </Properties>
@@ -131,7 +131,7 @@
         <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe Script" size="12" style="1"/>
+              <Font name="Rockwell" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Continuamos con m&#xfa;ltiplos de 10"/>
           </Properties>
@@ -152,7 +152,7 @@
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe Script" size="14" style="1"/>
+              <Font name="Rockwell" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Siguiente"/>
           </Properties>
@@ -168,7 +168,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe Script" size="14" style="1"/>
+              <Font name="Rockwell" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Regresar"/>
           </Properties>
