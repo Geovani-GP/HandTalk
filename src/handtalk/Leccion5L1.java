@@ -47,14 +47,14 @@ public class Leccion5L1 extends javax.swing.JFrame {
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel8.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel8.setText("Leccion 5");
+        jLabel8.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel8.setText("Lección 5");
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel17.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel17.setText("Familia");
 
@@ -70,7 +70,7 @@ public class Leccion5L1 extends javax.swing.JFrame {
                 .addComponent(jLabel9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 316, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 327, Short.MAX_VALUE)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jSeparator4)
                     .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -108,7 +108,7 @@ public class Leccion5L1 extends javax.swing.JFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,7 +117,7 @@ public class Leccion5L1 extends javax.swing.JFrame {
         });
         jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, -1, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
