@@ -39,7 +39,7 @@
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Siguiente"/>
           </Properties>
@@ -55,7 +55,7 @@
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Regresar"/>
           </Properties>
@@ -115,7 +115,7 @@
                                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="327" max="32767" attributes="0"/>
+                                  <EmptySpace pref="316" max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="jLabel5" alignment="1" min="-2" pref="92" max="-2" attributes="0"/>
                                       <Component id="jSeparator1" alignment="1" min="-2" pref="205" max="-2" attributes="0"/>
@@ -157,11 +157,11 @@
                           <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                   <Component id="jLabel8" min="-2" pref="165" max="-2" attributes="0"/>
-                  <EmptySpace pref="76" max="32767" attributes="0"/>
+                  <EmptySpace pref="75" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -170,9 +170,9 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
+              <Font name="Segoe Script" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Lecci&#xf3;n 1"/>
+            <Property name="text" type="java.lang.String" value="Leccion 1"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
@@ -194,7 +194,7 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
+              <Font name="Segoe Script" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Alfabeto"/>
           </Properties>
@@ -202,7 +202,7 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#xa1;F&#xe1;cil!, &#xbf;no es verdad?"/>
           </Properties>
@@ -210,7 +210,7 @@
         <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Aumentemos unas cuantas letras m&#xe1;s"/>
           </Properties>
