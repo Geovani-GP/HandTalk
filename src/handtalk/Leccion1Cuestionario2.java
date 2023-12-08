@@ -9,10 +9,7 @@ package handtalk;
  * @author oscar
  */
 public class Leccion1Cuestionario2 extends javax.swing.JFrame {
-String nombreUsuario;
-String correoUsuario;
-String Respuesta1;
-String Respuesta2;
+
     /**
      * Creates new form Leccion1Cuestionario2
      */
@@ -24,19 +21,9 @@ String Respuesta2;
     public Leccion1Cuestionario2(int aciertos){
         this.aciertos=aciertos;
         initComponents();
+        setLocationRelativeTo(null);
     }
-public void setDatosUsuario(String nombre, String correo,String r1) {
-        this.nombreUsuario = nombre;
-        this.correoUsuario = correo;
-        this.Respuesta1=r1;
-imprimirDatos();
-    }
-private void imprimirDatos() {
-        System.out.println("Cuestionario1");
-        System.out.println("nombre:"+this.nombreUsuario);
-        System.out.println("correo:"+this.correoUsuario);
-        System.out.println("Respuesta1:"+this.Respuesta1);
-    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -69,20 +56,20 @@ private void imprimirDatos() {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel3.setText("Leccion 1 - Cuestionario");
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel3.setText("Lección 1 - Cuestionario");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel5.setText("Alfabeto");
 
-        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel6.setText("¿Qué letra representa la siguiente seña?");
 
-        jButton2.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton2.setText("a) \"U\"");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +77,7 @@ private void imprimirDatos() {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton4.setText("b) \"O\"");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +85,7 @@ private void imprimirDatos() {
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton5.setText("c) \"K\"");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,7 +93,7 @@ private void imprimirDatos() {
             }
         });
 
-        jButton6.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton6.setText("d) \"Z\"");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,7 +101,7 @@ private void imprimirDatos() {
             }
         });
 
-        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/U.jpg"))); // NOI18N
@@ -130,7 +117,7 @@ private void imprimirDatos() {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 163, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 199, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -188,14 +175,14 @@ private void imprimirDatos() {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 430));
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -204,7 +191,7 @@ private void imprimirDatos() {
         });
         jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, 120, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,7 +210,6 @@ private void imprimirDatos() {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Leccion1Cuestionario3 obj = new Leccion1Cuestionario3();
-        obj.setDatosUsuario(this.nombreUsuario,this.correoUsuario,Respuesta1,Respuesta2);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();
@@ -239,7 +225,6 @@ private void imprimirDatos() {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         jLabel7.setText("Incorrecto");
-        this.Respuesta2="Incorrecto";
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -247,17 +232,14 @@ private void imprimirDatos() {
         System.out.println("");
         aciertos++;
         jLabel7.setText("Correcto");
-this.Respuesta2="Correcto";
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         jLabel7.setText("Incorrecto");
-this.Respuesta2="Incorrecto";
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         jLabel7.setText("Incorrecto");
-this.Respuesta2="Incorrecto";
     }//GEN-LAST:event_jButton6ActionPerformed
 
     /**

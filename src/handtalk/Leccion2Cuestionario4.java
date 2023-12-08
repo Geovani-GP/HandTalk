@@ -9,12 +9,7 @@ package handtalk;
  * @author mafer
  */
 public class Leccion2Cuestionario4 extends javax.swing.JFrame {
-String nombre;
-String correo;
-String r1;
-String r2;
-String r3;
-String r4;
+
     /**
      * Creates new form Leccion2Cuestionario4
      */
@@ -22,21 +17,7 @@ String r4;
         initComponents();
         setLocationRelativeTo(null);
     }
-public void setDatosUsuario(String nombre, String correo, String r1, String r2, String r3) {
-        this.nombre = nombre;
-        this.correo = correo;
-        this.r1 = r1;
-        this.r2 = r2;
-        this.r3 = r3;
-imprimirDatos();
-    }
-private void imprimirDatos() {
-        System.out.println("nombre:"+this.nombre);
-        System.out.println("correo:"+this.correo);
-        System.out.println("r1:"+this.r1);
-        System.out.println("r2:"+this.r2);
-        System.out.println("r3:"+this.r3);
-    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -68,8 +49,8 @@ private void imprimirDatos() {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel3.setText("Leccion 2 - Cuestionario");
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel3.setText("Lección 2 - Cuestionario");
         jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 36, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
@@ -79,44 +60,44 @@ private void imprimirDatos() {
         jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(694, 6, -1, -1));
         jPanel3.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(477, 72, 205, 10));
 
-        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel5.setText("Expresiones");
         jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(566, 36, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel6.setText("¿Qúe significa esta seña?");
         jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 110, 220, -1));
 
-        jButton2.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton2.setText("a) Adiós");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 180, 90, -1));
+        jPanel3.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 90, -1));
 
-        jButton4.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton4.setText("b) Si");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 80, -1));
+        jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 80, -1));
 
-        jButton5.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton5.setText("c) No");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel3.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 350, 80, -1));
+        jPanel3.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 350, 80, -1));
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Menú");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -125,7 +106,7 @@ private void imprimirDatos() {
         });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, 120, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,22 +120,28 @@ private void imprimirDatos() {
 
         jPanel3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 440, 800, 70));
 
-        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 390, 140, 40));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/2c.jpg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Adios.jpg"))); // NOI18N
         jLabel9.setText("jLabel9");
-        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, 140, 120));
+        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 160, 140, 210));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -162,25 +149,17 @@ private void imprimirDatos() {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jLabel7.setText("Correcto");
-        this.r4 = "Correcto";
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         jLabel7.setText("Incorrecto");
-        this.r4 = "Incorrecto";
-
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         jLabel7.setText("Incorrecto");
-        this.r4 = "Incorrecto";
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        FuncionReg fr= new FuncionReg();
-        fr.crearCuestionarioDos(this.nombre, this.correo,
-                                  this.r1, this.r2, this.r3,
-                                  this.r4);
         Menu obj = new Menu();
         obj.setVisible(true);
         this.hide();

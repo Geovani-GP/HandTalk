@@ -55,21 +55,21 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel3.setText("Leccion 4 - Cuestionario");
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel3.setText("Lección 4 - Cuestionario");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel11.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel11.setText("Dias");
+        jLabel11.setText("Tiempo");
 
-        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel6.setText("¿Cual es la seña la cual signifique \"Sabado\"?");
 
-        jButton2.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton2.setText("a)");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,7 +77,7 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton4.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton4.setText("b)");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,13 +85,15 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton5.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton5.setText("c)");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
+
+        jLabel4.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
 
         jLabel5.setText("jLabel5");
 
@@ -108,7 +110,7 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 168, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 199, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jSeparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 205, Short.MAX_VALUE)
                     .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -163,7 +165,7 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -189,7 +191,7 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,7 +200,7 @@ public class CuestionarioLeccion4 extends javax.swing.JFrame {
         });
         jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, 120, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
