@@ -74,13 +74,13 @@ private static String nombre, correo, contraseña;
 
         lblIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
-        lblIniciarSesion.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
+        lblIniciarSesion.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
         lblIniciarSesion.setText("Iniciar Sesión");
 
-        lblUsuario.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
+        lblUsuario.setFont(new java.awt.Font("Segoe Script", 1, 24)); // NOI18N
         lblUsuario.setText("Correo");
 
-        lblContraseña.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
+        lblContraseña.setFont(new java.awt.Font("Segoe Script", 1, 24)); // NOI18N
         lblContraseña.setText("Contraseña:");
 
         txtCorreo.setForeground(new java.awt.Color(153, 153, 153));
@@ -116,7 +116,7 @@ private static String nombre, correo, contraseña;
         Separador2.setForeground(new java.awt.Color(0, 0, 0));
 
         btnIniciar.setBackground(new java.awt.Color(182, 9, 213));
-        btnIniciar.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        btnIniciar.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciar.setText("Iniciar");
         btnIniciar.setBorder(null);
@@ -127,7 +127,7 @@ private static String nombre, correo, contraseña;
         });
 
         btnRegistro.setBackground(new java.awt.Color(182, 9, 213));
-        btnRegistro.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        btnRegistro.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         btnRegistro.setForeground(new java.awt.Color(255, 255, 255));
         btnRegistro.setText("Registrar");
         btnRegistro.setBorder(null);
@@ -152,7 +152,7 @@ private static String nombre, correo, contraseña;
                                         .addComponent(lblIcono)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(lblIniciarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 6, Short.MAX_VALUE))
+                                        .addGap(0, 24, Short.MAX_VALUE))
                                     .addGroup(jPanel3Layout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
                                         .addComponent(btnRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -169,7 +169,7 @@ private static String nombre, correo, contraseña;
                                             .addComponent(lblContraseña)
                                             .addComponent(lblUsuario))
                                         .addGap(0, 0, Short.MAX_VALUE)))))
-                        .addGap(117, 117, 117))
+                        .addGap(99, 99, 99))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -216,7 +216,7 @@ private static String nombre, correo, contraseña;
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, 300, -1));
 
-        jLabel2.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe Script", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Hand Talk");
@@ -296,7 +296,9 @@ private static String nombre, correo, contraseña;
         }
         
         intentos++;
+        
         correo = txtCorreo.getText();
+
         contraseña = pswContraseña.getText();
         
         FuncionSes f = new FuncionSes();
@@ -308,7 +310,10 @@ private static String nombre, correo, contraseña;
         //Ocultamos la ventana en la que me encuentro
         this.hide();
     }else{
+nombre = obtenerNombre(correo);
+System.out.println("Nombre del usuario: "+nombre);
         Menu obj = new Menu();
+        obj.setDatosUsuario(this.nombre, this.correo); //Enviamos los datos de usuario a travez de un metodo que pueda recibir datos
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();
@@ -326,6 +331,47 @@ private static String nombre, correo, contraseña;
 
         
     }//GEN-LAST:event_btnIniciarActionPerformed
+
+public static String obtenerNombre(String correoABuscar) {
+    String nombre = null;
+    String archivo = "registros.txt"; // Reemplaza con tu nombre de archivo
+
+    try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
+        String linea;
+        StringBuilder datosUsuario = new StringBuilder();
+
+        while ((linea = br.readLine()) != null) {
+            // Si la línea no está vacía, se agrega a los datos del usuario actual
+            if (!linea.trim().isEmpty()) {
+                datosUsuario.append(linea).append("\n");
+            } else {
+                // Cuando encuentras una línea vacía, procesas los datos del usuario
+                String[] datos = datosUsuario.toString().split("\n");
+
+                // Suponiendo que el tercer campo es el correo electrónico
+                String correo = datos[2].trim();
+System.out.println("correo: "+correo);
+System.out.println("correo a buscar1: "+correoABuscar);
+                // Si el correo coincide con el correo a buscar, obtenemos el nombre
+                if (correo.equals(correoABuscar)) {
+System.out.println("correo a buscar en if: "+correoABuscar);
+                    nombre = datos[0] + " " + datos[1]; // Concatenamos el nombre y apellido
+System.out.println("nombre: "+nombre);
+                    break; // Terminamos la búsqueda
+                }
+
+                // Reiniciamos los datos del usuario para el próximo usuario
+                datosUsuario = new StringBuilder();
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+
+    return nombre;
+}
+
+
 
     private void txtCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCorreoActionPerformed
         
