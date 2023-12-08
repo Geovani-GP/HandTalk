@@ -47,9 +47,9 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
+              <Font name="Segoe Script" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Lecci&#xf3;n 3 - Cuestionario"/>
+            <Property name="text" type="java.lang.String" value="Leccion 3 - Cuestionario"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -91,9 +91,9 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
+              <Font name="Segoe Script" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="N&#xfa;meros"/>
+            <Property name="text" type="java.lang.String" value="Numeros"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -104,9 +104,9 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;ntos meses tiene un a&#xf1;o?"/>
+            <Property name="text" type="java.lang.String" value="&#xbf;Cuantos meses tiene un a&#xf1;o?"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -117,7 +117,7 @@
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
+              <Font name="Segoe Script" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="a) "/>
           </Properties>
@@ -133,7 +133,7 @@
         <Component class="javax.swing.JButton" name="jButton4">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
+              <Font name="Segoe Script" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="b) "/>
           </Properties>
@@ -149,7 +149,7 @@
         <Component class="javax.swing.JButton" name="jButton5">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
+              <Font name="Segoe Script" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="c) "/>
           </Properties>
@@ -176,7 +176,7 @@
             <Component class="javax.swing.JButton" name="jButton3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Rockwell" size="14" style="1"/>
+                  <Font name="Segoe Script" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Siguiente"/>
               </Properties>
@@ -192,7 +192,7 @@
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Rockwell" size="14" style="1"/>
+                  <Font name="Segoe Script" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Regresar"/>
               </Properties>
@@ -222,7 +222,7 @@
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
+              <Font name="Segoe Script" size="14" style="1"/>
             </Property>
           </Properties>
           <Constraints>
