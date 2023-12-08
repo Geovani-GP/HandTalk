@@ -9,13 +9,6 @@ package handtalk;
  * @author oscar
  */
 public class Leccion1Cuestionario5 extends javax.swing.JFrame {
-String nombreUsuario;
-String correoUsuario;
-String Respuesta1;
-String Respuesta2;
-String Respuesta3;
-String Respuesta4;
-String Respuesta5;
 
     /**
      * Creates new form Leccion1Cuestionario5
@@ -24,25 +17,6 @@ String Respuesta5;
         initComponents();
         setLocationRelativeTo(null);
     }
-public void setDatosUsuario(String nombre, String correo,String r1,String r2,String r3,String r4) {
-        this.nombreUsuario = nombre;
-        this.correoUsuario = correo;
-        this.Respuesta1=r1;
-        this.Respuesta2=r2;
-        this.Respuesta3=r3;
-        this.Respuesta4=r4;
-        imprimirDatos();
-    }
-private void imprimirDatos() {
-        System.out.println("Cuestionario5");
-        System.out.println("nombre:"+this.nombreUsuario);
-        System.out.println("correo:"+this.correoUsuario);
-        System.out.println("Respuesta1:"+this.Respuesta1);
-System.out.println("Respuesta2:"+this.Respuesta2);
-System.out.println("Respuesta3:"+this.Respuesta3);
-System.out.println("Respuesta4:"+this.Respuesta4);
-    }
-
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -191,20 +165,20 @@ System.out.println("Respuesta4:"+this.Respuesta4);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel7.setText("Leccion 1 - Cuestionario");
+        jLabel7.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel7.setText("Lección 1 - Cuestionario");
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel10.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel10.setText("Alfabeto");
 
-        jLabel11.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel11.setText("¿Cómo se deletrea la palabra \"Bátiz\"\"?");
 
-        jButton6.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton6.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton6.setText("a)");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,7 +186,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
             }
         });
 
-        jButton7.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton7.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton7.setText("b)");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -220,7 +194,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
             }
         });
 
-        jButton8.setFont(new java.awt.Font("Segoe Script", 1, 12)); // NOI18N
+        jButton8.setFont(new java.awt.Font("Rockwell", 1, 12)); // NOI18N
         jButton8.setText("c)");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,7 +208,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Batiz (1).jpg"))); // NOI18N
 
-        jLabel16.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -248,7 +222,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
                         .addComponent(jLabel8)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 163, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 199, Short.MAX_VALUE)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -300,7 +274,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, 20, Short.MAX_VALUE)
+                        .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, 34, Short.MAX_VALUE)
                         .addContainerGap())
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(56, 56, 56)
@@ -316,7 +290,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
 
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton9.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton9.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton9.setText("Menú");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -325,7 +299,7 @@ System.out.println("Respuesta4:"+this.Respuesta4);
         });
         jPanel5.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, 120, 30));
 
-        jButton10.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton10.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton10.setText("Regresar");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -354,21 +328,9 @@ System.out.println("Respuesta4:"+this.Respuesta4);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-
-
-if(this.nombreUsuario == null && this.correoUsuario == null){
-System.out.println("los datos son nulos");
-}else{
-        FuncionReg fr= new FuncionReg();
-        fr.crearCuestionarioUno(this.nombreUsuario, this.correoUsuario,
-                                  this.Respuesta1, this.Respuesta2, this.Respuesta3,
-                                  this.Respuesta4,this.Respuesta5);
         Menu obj = new Menu();
         obj.setVisible(true);
         this.hide();
-}
-
-
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
@@ -380,17 +342,14 @@ System.out.println("los datos son nulos");
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         jLabel16.setText("Correcto");
-this.Respuesta5="Correcto";
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         jLabel16.setText("Incorrecto");
-this.Respuesta5="Incorrecto";
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         jLabel16.setText("Incorrecto");
-this.Respuesta5="Incorrecto";
     }//GEN-LAST:event_jButton6ActionPerformed
 
     /**

@@ -131,7 +131,7 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
-                                      <Component id="jLabel5" pref="214" max="32767" attributes="0"/>
+                                      <Component id="jLabel5" pref="220" max="32767" attributes="0"/>
                                       <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
@@ -157,9 +157,9 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe Script" size="18" style="1"/>
+                  <Font name="Rockwell" size="18" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="Leccion 4"/>
+                <Property name="text" type="java.lang.String" value="Lecci&#xf3;n 4"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
@@ -181,7 +181,7 @@
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe Script" size="18" style="1"/>
+                  <Font name="Rockwell" size="18" style="1"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="4"/>
                 <Property name="text" type="java.lang.String" value="Tiempo"/>
@@ -190,7 +190,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe Script" size="14" style="1"/>
+                  <Font name="Rockwell" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="En esta lecci&#xf3;n aprenderemos expresiones de tiempo: d&#xed;as y meses."/>
               </Properties>
@@ -245,7 +245,7 @@
             <Component class="javax.swing.JButton" name="jButton3">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe Script" size="14" style="1"/>
+                  <Font name="Rockwell" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Siguiente"/>
               </Properties>
@@ -261,7 +261,7 @@
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe Script" size="14" style="1"/>
+                  <Font name="Rockwell" size="14" style="1"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Regresar"/>
               </Properties>
