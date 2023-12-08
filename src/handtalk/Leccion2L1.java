@@ -9,7 +9,8 @@ package handtalk;
  * @author cagui
  */
 public class Leccion2L1 extends javax.swing.JFrame {
-
+String nombre;
+String correo;
     /**
      * Creates new form Leccion2L1
      */
@@ -17,7 +18,15 @@ public class Leccion2L1 extends javax.swing.JFrame {
         initComponents();
         setLocationRelativeTo(null);
     }
-
+public void setDatosUsuario(String nombre, String correo) {
+        this.nombre = nombre;
+        this.correo = correo;
+imprimirDatos();
+    }
+private void imprimirDatos() {
+        System.out.println("nombre:"+this.nombre);
+        System.out.println("correo:"+this.correo);
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -51,26 +60,26 @@ public class Leccion2L1 extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        jLabel3.setText("Lección 2");
+        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel3.setText("Leccion 2");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
         jLabel5.setText("Expresiones");
 
-        jLabel7.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel7.setText("\"Gracias\"");
 
-        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel6.setText("\"Adiós\"");
 
-        jLabel8.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel8.setText("\"Sí\"");
 
-        jLabel9.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jLabel9.setText("\"No\"");
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Adios.jpg"))); // NOI18N
@@ -165,14 +174,14 @@ public class Leccion2L1 extends javax.swing.JFrame {
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(jLabel9)
                                         .addComponent(jLabel8)))))))
-                .addContainerGap(78, Short.MAX_VALUE))
+                .addContainerGap(64, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 430));
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,7 +190,7 @@ public class Leccion2L1 extends javax.swing.JFrame {
         });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, -1, 30));
 
-        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -200,6 +209,7 @@ public class Leccion2L1 extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Leccion2L2 obj = new Leccion2L2();
+        obj.setDatosUsuario(this.nombre, this.correo);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();
