@@ -18,7 +18,6 @@ public class FuncionSes {
     
     ArrayList<Registroo> arrayreg = new ArrayList();
     String nombre, correo, contraseña;
-    
     public void validarUsuario(String usuarios[], String nombre, String correo, String contraseña, int intentos){
         boolean encontrado=false;
         

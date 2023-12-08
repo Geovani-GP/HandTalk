@@ -10,6 +10,8 @@ package handtalk;
  */
 public class Menu extends javax.swing.JFrame {
 
+String nombre;
+String correo;
     /**
      * Creates new form Menu
      */
@@ -18,6 +20,15 @@ public class Menu extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
+public void setDatosUsuario(String nombre, String correo) {
+        this.nombre = nombre;
+        this.correo = correo;
+imprimirDatos();
+    }
+private void imprimirDatos() {
+        System.out.println("nombre:"+this.nombre);
+        System.out.println("correo:"+this.correo);
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -185,7 +196,6 @@ public class Menu extends javax.swing.JFrame {
         );
 
         btnIniciar.setBackground(new java.awt.Color(182, 9, 213));
-        btnIniciar.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciar.setText("Salir");
         btnIniciar.setBorder(null);
@@ -195,23 +205,13 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
-        jLabel8.setText("Lección 1");
 
-        jLabel9.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
-        jLabel9.setText("Lección 2");
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
         jLabel10.setText("jLabel10");
 
-        jLabel11.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
-        jLabel11.setText("Lección 3");
 
-        jLabel12.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
-        jLabel12.setText("Lección 4");
 
-        jLabel13.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
-        jLabel13.setText("Lección 5");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -291,9 +291,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 800, 440));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Hand Talk");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 150, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/fondoLecciones (1).jpg"))); // NOI18N
@@ -315,6 +313,8 @@ public class Menu extends javax.swing.JFrame {
 
     private void btn1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn1MouseClicked
         Leccion1 obj = new Leccion1();
+
+ obj.setDatosUsuario(this.nombre, this.correo);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();
@@ -322,6 +322,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void btn2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn2MouseClicked
         Leccion2 obj = new Leccion2();
+        obj.setDatosUsuario(this.nombre, this.correo);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();

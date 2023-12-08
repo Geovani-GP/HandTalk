@@ -147,7 +147,6 @@ public class Registro extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jLabel2.setText("Registro");
 
         txtNombre.setBorder(null);
@@ -169,7 +168,6 @@ public class Registro extends javax.swing.JFrame {
 
         Separador1.setForeground(new java.awt.Color(0, 0, 0));
 
-        lblNombreR.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         lblNombreR.setText("Nombre: ");
 
         txtCorreo.setBorder(null);
@@ -191,7 +189,6 @@ public class Registro extends javax.swing.JFrame {
 
         Separador2.setForeground(new java.awt.Color(0, 0, 0));
 
-        lblCorreo.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         lblCorreo.setText("Correo: ");
 
         txtApellidos.setBorder(null);
@@ -213,12 +210,10 @@ public class Registro extends javax.swing.JFrame {
 
         Separador3.setForeground(new java.awt.Color(0, 0, 0));
 
-        lblApellidos.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         lblApellidos.setText("Apellidos:");
 
         Separador4.setForeground(new java.awt.Color(0, 0, 0));
 
-        lblContraseña.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         lblContraseña.setText("Contraseña:");
 
         pswContraseña.setBorder(null);
@@ -239,7 +234,6 @@ public class Registro extends javax.swing.JFrame {
         });
 
         btnIniciarSesion.setBackground(new java.awt.Color(182, 9, 213));
-        btnIniciarSesion.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         btnIniciarSesion.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciarSesion.setText("Guardar");
         btnIniciarSesion.setBorder(null);
@@ -249,7 +243,6 @@ public class Registro extends javax.swing.JFrame {
             }
         });
 
-        lblContraseña1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         lblContraseña1.setText("Confirmar Contraseña:");
 
         pswContraseñaCON.setBorder(null);
@@ -409,7 +402,6 @@ public class Registro extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 100, 300, -1));
 
-        jLabel4.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Hand Talk");

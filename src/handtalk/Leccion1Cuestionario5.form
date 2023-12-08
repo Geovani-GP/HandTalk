@@ -237,7 +237,6 @@
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="199" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Component id="jLabel10" alignment="1" min="-2" pref="92" max="-2" attributes="0"/>
                               <Component id="jSeparator2" alignment="1" min="-2" pref="205" max="-2" attributes="0"/>
@@ -302,7 +301,6 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" pref="87" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel16" pref="34" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -323,9 +321,7 @@
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Lecci&#xf3;n 1 - Cuestionario"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
@@ -345,7 +341,6 @@
         <Component class="javax.swing.JLabel" name="jLabel10">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Alfabeto"/>
           </Properties>
@@ -355,7 +350,6 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#xbf;C&#xf3;mo se deletrea la palabra &quot;B&#xe1;tiz&quot;&quot;?"/>
           </Properties>
@@ -363,7 +357,6 @@
         <Component class="javax.swing.JButton" name="jButton6">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="a)"/>
           </Properties>
@@ -374,7 +367,6 @@
         <Component class="javax.swing.JButton" name="jButton7">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="b)"/>
           </Properties>
@@ -385,7 +377,6 @@
         <Component class="javax.swing.JButton" name="jButton8">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="12" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="c)"/>
           </Properties>
@@ -417,7 +408,6 @@
         <Component class="javax.swing.JLabel" name="jLabel16">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="18" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
           </Properties>
@@ -438,7 +428,6 @@
         <Component class="javax.swing.JButton" name="jButton9">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Men&#xfa;"/>
           </Properties>
@@ -454,7 +443,6 @@
         <Component class="javax.swing.JButton" name="jButton10">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Rockwell" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Regresar"/>
           </Properties>

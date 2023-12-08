@@ -10,6 +10,8 @@ package handtalk;
  */
 public class LeccionL1 extends javax.swing.JFrame {
 
+String nombreUsuario;
+String correoUsuario;
     /**
      * Creates new form LeccionL1
      */
@@ -18,6 +20,15 @@ public class LeccionL1 extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }
 
+public void setDatosUsuario(String nombre, String correo) {
+        this.nombreUsuario = nombre;
+        this.correoUsuario = correo;
+imprimirDatos();
+    }
+private void imprimirDatos() {
+        System.out.println("nombre:"+this.nombreUsuario);
+        System.out.println("correo:"+this.correoUsuario);
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -44,7 +55,6 @@ public class LeccionL1 extends javax.swing.JFrame {
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -53,7 +63,6 @@ public class LeccionL1 extends javax.swing.JFrame {
         });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, -1, 30));
 
-        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,17 +76,13 @@ public class LeccionL1 extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        jLabel3.setText("Lección 1");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel5.setText("Alfabeto");
 
-        jLabel26.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel26.setText("No olvides practicar...");
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/abecedario (2) (1).jpg"))); // NOI18N
@@ -160,6 +165,9 @@ public class LeccionL1 extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Leccion1L2 obj = new Leccion1L2();
+System.out.println("Leccion2: "+this.nombreUsuario);
+System.out.println("Leccion2:"+this.correoUsuario);
+obj.setDatosUsuario(this.nombreUsuario, this.correoUsuario);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();

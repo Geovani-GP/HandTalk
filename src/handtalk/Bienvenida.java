@@ -74,13 +74,10 @@ private static String nombre, correo, contraseña;
 
         lblIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
-        lblIniciarSesion.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
         lblIniciarSesion.setText("Iniciar Sesión");
 
-        lblUsuario.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         lblUsuario.setText("Correo");
 
-        lblContraseña.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         lblContraseña.setText("Contraseña:");
 
         txtCorreo.setForeground(new java.awt.Color(153, 153, 153));
@@ -116,7 +113,6 @@ private static String nombre, correo, contraseña;
         Separador2.setForeground(new java.awt.Color(0, 0, 0));
 
         btnIniciar.setBackground(new java.awt.Color(182, 9, 213));
-        btnIniciar.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciar.setText("Iniciar");
         btnIniciar.setBorder(null);
@@ -127,7 +123,6 @@ private static String nombre, correo, contraseña;
         });
 
         btnRegistro.setBackground(new java.awt.Color(182, 9, 213));
-        btnRegistro.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         btnRegistro.setForeground(new java.awt.Color(255, 255, 255));
         btnRegistro.setText("Registrar");
         btnRegistro.setBorder(null);
@@ -152,7 +147,6 @@ private static String nombre, correo, contraseña;
                                         .addComponent(lblIcono)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(lblIniciarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, 282, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(0, 6, Short.MAX_VALUE))
                                     .addGroup(jPanel3Layout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
                                         .addComponent(btnRegistro, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -169,7 +163,6 @@ private static String nombre, correo, contraseña;
                                             .addComponent(lblContraseña)
                                             .addComponent(lblUsuario))
                                         .addGap(0, 0, Short.MAX_VALUE)))))
-                        .addGap(117, 117, 117))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -216,7 +209,6 @@ private static String nombre, correo, contraseña;
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, 300, -1));
 
-        jLabel2.setFont(new java.awt.Font("Rockwell", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Hand Talk");
@@ -268,7 +260,6 @@ private static String nombre, correo, contraseña;
     }//GEN-LAST:event_pswContraseñaMousePressed
 
     private void btnIniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIniciarActionPerformed
-         
         FileReader fr = null;
     try {
         int nLineas = 0;
@@ -331,7 +322,6 @@ System.out.println("Nombre del usuario: "+nombre);
         
     }//GEN-LAST:event_btnIniciarActionPerformed
 
-    public static String obtenerNombre(String correoABuscar) {
     String nombre = null;
     String archivo = "registros.txt"; // Reemplaza con tu nombre de archivo
 
