@@ -9,8 +9,7 @@ package handtalk;
  * @author cagui
  */
 public class Leccion1L2 extends javax.swing.JFrame {
-String nombreUsuario;
-String correoUsuario;
+
     /**
      * Creates new form Leccion1L2
      */
@@ -18,16 +17,7 @@ String correoUsuario;
         initComponents();
         setLocationRelativeTo(null);
     }
-public void setDatosUsuario(String nombre, String correo) {
-String completa = nombre + correo;
-        this.nombreUsuario = nombre;
-        this.correoUsuario = correo;
-imprimirDatos();
-    }
-private void imprimirDatos() {
-        System.out.println("nombre:"+this.nombreUsuario);
-        System.out.println("correo:"+this.correoUsuario);
-    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -56,7 +46,7 @@ private void imprimirDatos() {
 
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton3.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton3.setText("Siguiente");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,7 +55,7 @@ private void imprimirDatos() {
         });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 21, -1, 30));
 
-        jButton1.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jButton1.setText("Regresar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -81,20 +71,20 @@ private void imprimirDatos() {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
-        jLabel3.setText("Leccion 1");
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel3.setText("Lección 1");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/logo (1).png"))); // NOI18N
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono (1).png"))); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Segoe Script", 1, 18)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
         jLabel5.setText("Alfabeto");
 
-        jLabel6.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel6.setText("¡Fácil!, ¿no es verdad?");
 
-        jLabel12.setFont(new java.awt.Font("Segoe Script", 1, 14)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
         jLabel12.setText("Aumentemos unas cuantas letras más");
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/abecedario (3) (1).jpg"))); // NOI18N
@@ -119,7 +109,7 @@ private void imprimirDatos() {
                                 .addComponent(jLabel2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 316, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 327, Short.MAX_VALUE)
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))))
@@ -148,11 +138,11 @@ private void imprimirDatos() {
                                 .addComponent(jLabel3)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel6)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(36, 36, 36)
                 .addComponent(jLabel12)
-                .addGap(42, 42, 42)
+                .addGap(35, 35, 35)
                 .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(76, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 800, 430));
@@ -162,9 +152,6 @@ private void imprimirDatos() {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Leccion1L3 obj = new Leccion1L3();
-System.out.println("Leccion3: "+this.nombreUsuario);
-System.out.println("Leccion3:"+this.correoUsuario);
-obj.setDatosUsuario(this.nombreUsuario, this.correoUsuario);
         obj.setVisible(true);
         //Ocultamos la ventana en la que me encuentro
         this.hide();
